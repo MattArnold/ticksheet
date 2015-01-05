@@ -1,0 +1,54 @@
+@media (max-width: 699px) {
+	.task {
+		font-size: 10em;
+	}
+}
+
+@media (min-width: 700px) {
+	.task {
+		font-size: x-large;
+	}
+}
+
+body {
+	background-color: #002b36;
+	font-family: Arial;
+}
+
+[class*='segment'] {
+	float: left;
+	width: 10%;
+	height: 1em;
+	margin: .2em;
+	display: table-column;
+}
+
+.task {
+	content: "";
+	clear: both;
+  	background-color: #268bd2;
+	border-radius: .5em;
+	margin: .5em;
+	padding: .5em;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.50);
+}
+
+.btnlabel {
+	font-size: large;
+}
+
+.progressbar {
+
+}
+
+.onsegment {
+	background-color: #fdf6e3;
+}
+
+.offsegment {
+	background-color: #657b83;
+}
+
+.clear {
+	color: #268bd2;
+}
